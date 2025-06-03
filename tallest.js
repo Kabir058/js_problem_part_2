@@ -14,3 +14,5 @@ function getMax(numbers)
 }
 
 console.log(array)
+
+
