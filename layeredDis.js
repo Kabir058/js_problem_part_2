@@ -6,7 +6,7 @@ function leyerdDistot(quantity)
     if(quantity<=100)
     {
         let total =quantity * first100price;
-            return totall;
+            return total;
     }
     else if(quantity<=200)
     {
@@ -16,4 +16,16 @@ function leyerdDistot(quantity)
         let total = first100total + remainingTotal
         return total;
     }
+    else{
+        let first100total = 100 * first100price;
+        let sc100total = 100* sc100price;
+            let remainingQuantity=quantity -200;
+            let remainingTotal= remainingQuantity * above200price;
+            let total = first100total +sc100total + remainingTotal;
+            return total; 
+
+    }
 }
+
+let value= leyerdDistot(55);
+console.log(value)
