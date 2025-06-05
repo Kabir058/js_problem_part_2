@@ -27,3 +27,13 @@ function fullName(first, second)
 
 let naam = fullName('Ridwanul' , 'Kabir');
 console.log(naam)
+
+function getPrice(product)
+{
+    let price = product.price;
+    return price;
+}
+
+let price = getPrice({ price : 40, color : 'blue'})
+
+console.log(price)
