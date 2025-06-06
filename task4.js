@@ -23,3 +23,4 @@ function findAveragePhonePrice(phones) {
 
 console.log(findAveragePhonePrice(phones)); 
 
+// this is for task 4"
